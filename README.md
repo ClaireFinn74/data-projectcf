@@ -88,7 +88,7 @@ Saying "all" will return an array of *all* of the callouts, in **JSON** format l
 
 ## Using the HTTP GET method:
 If you wanted to list all Fire Brigade and Ambulance Callouts information along with a certain field of preference within the Dataset use a URL similar to this:
-*http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?[District_ID]=[SWORDS]*
+- *http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?[District_ID]=[SWORDS]*
 
 - "?"  Starts the query string
 - [District_ID] meaning "[Field of preference]" so it will search for the information in the Dataset that you requested
