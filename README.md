@@ -91,7 +91,7 @@ There are thousands of fields in the Dataset I have chosen so if you want to dis
 **For Example**
 http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/9
 
-This would return only 9 instances of the callouts
+This would return only the first 9 instances of the callouts from the Dataset.
 
 ## Using the HTTP GET method:
 If you wanted to list all Fire Brigade and Ambulance Callouts information along with a certain field of preference within the Dataset use a URL similar to this:
