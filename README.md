@@ -50,7 +50,7 @@ The Dataset, taking the first row for example, looks like this in JSON Format:
 Use a URL similar to this:
 *http:// DublinfirebrigadeandambulancecalloutsAPI.com/callouts/all*
 
-Saying "all" will return an array of *all* of the callouts, in JSON format like so:
+Saying "all" will return an array of *all* of the callouts, in *JSON* format like so:
 
 ```json
 [
