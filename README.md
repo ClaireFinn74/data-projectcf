@@ -199,6 +199,14 @@ etc until all of the fields in the "City Centre" are output that come from the a
 
 As you can see the fields output are fields with only "City Centre" as the "District_ID" and "DA" as the Agency.
 
+## Typical codes you may see within HTTP:
 
+Code| Description
+------------ | -------------
+200| Everything works fine
+400| Bad or Unknown Request
+404| Not Found
+500| Server Error
+302| Moved Temporarily
 
 
