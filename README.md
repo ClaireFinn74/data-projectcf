@@ -88,9 +88,19 @@ Saying "all" will return an array of *all* of the callouts, in **JSON** format l
 
 ## Using the HTTP GET method:
 If you wanted to list all Fire Brigade and Ambulance Callouts information along with a certain field of preference within the Dataset use a URL similar to this:
-- *http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?[District_ID]=[SWORDS]*
+
+*http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?District_ID=SWORDS*
+
 - "?" Starts the query string
-- [District_ID] meaning "[Field of preference]" so it will **search** for the information in the specific column of the Dataset that you requested.
-- =[SWORDS] meaning =[Prefered Field info] so it will **respond** with the information in the Dataset from the specific column that you requested
+- [District_ID] shows the "Field of preference" so it will **search** for the information in the specific column of the Dataset that you requested.
+- =[SWORDS] shows the "Prefered Field info" so it will **respond** with the information in the Dataset from the specific column that you requested
 
 This would return a list of all of the Ambulance or Fire Brigade callouts that there has been to "Swords" from the "District_ID" column in the Dataset.
+
+**Extra Information**
+If there was a space between the two words in the column that you are requesting information from you simply add "+" to the URL.
+For example:
+
+If you wanted to get all of the callouts to the "CITY CENTRE" area within the "District_ID" column your URL would only need a slight change:
+*http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?District_ID=CITY+CENTRE*
+As you can see, the "+" sign was added between City and Centre to denote a space.
