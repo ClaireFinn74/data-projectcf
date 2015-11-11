@@ -106,7 +106,8 @@ This would return a list of all of the Ambulance or Fire Brigade callouts that t
 
 **Extra Information**
 
-If there was a space between the two words in the column that you are requesting information from you simply add "+" to the URL.8
+If there was a space between the two words in the column that you are requesting information from you simply add "+" to the URL.
+
 For example:
 
 If you wanted to get all of the callouts to the "CITY CENTRE" area within the "District_ID" column your URL would only need a slight change:
