@@ -2,8 +2,6 @@
 ## Data Representation and Querying Project 2015
 ### Claire Finn
 
-## Introduction
-
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Fire Brigade and Ambulance Call Outs*](https://data.gov.ie/dataset/fire-brigade-and-ambulance-call-outs).
 The CSV file contains 9523 rows, the first being a header row with the names of each field.
@@ -45,3 +43,7 @@ The Dataset, taking the first row for example, looks like this in JSON Format:
   }
   ]
 ```
+## HTTP Responses on my Dataset
+
+
+
