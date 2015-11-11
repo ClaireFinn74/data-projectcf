@@ -84,4 +84,4 @@ Saying "all" will return an array of *all* of the callouts, in JSON format like 
   }
 ]
 ```
-*Etc* Until all f the information in the table is displayed.
+*Etc* Until all of the information in the table is displayed.
