@@ -102,5 +102,7 @@ If there was a space between the two words in the column that you are requesting
 For example:
 
 If you wanted to get all of the callouts to the "CITY CENTRE" area within the "District_ID" column your URL would only need a slight change:
+
 *http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?District_ID=CITY+CENTRE*
+
 As you can see, the "+" sign was added between City and Centre to denote a space.
