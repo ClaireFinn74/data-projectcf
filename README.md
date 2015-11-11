@@ -86,6 +86,13 @@ Saying "all" will return an array of *all* of the callouts, in **JSON** format l
 ```
 *Etc* Until all of the information in the table is displayed.
 
+There are thousands of fields in the Dataset I have chosen so if you want to display just a few fields or a certain number of fields you can add that number to a URL.
+
+**For Example**
+http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/9
+
+This would return only 9 instances of the callouts
+
 ## Using the HTTP GET method:
 If you wanted to list all Fire Brigade and Ambulance Callouts information along with a certain field of preference within the Dataset use a URL similar to this:
 
