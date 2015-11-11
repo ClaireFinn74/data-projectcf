@@ -115,3 +115,7 @@ Easy! Just follow the same logic as the first example but add in "&" to add some
 *http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?District_ID=CITY+CENTRE&Agency=DA*
 
 This searches for the District_ID "City Centre" and also the Agency "DA" together!
+
+
+
+
