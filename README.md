@@ -45,12 +45,12 @@ The Dataset, taking the first row for example, looks like this in JSON Format:
   ]
 ```
 ## HTTP Responses on my Dataset
-### If you wanted to list all Fire Brigade and Ambulance Callouts information using the HTTP POST method:
+### Using the HTTP POST method:
 
-Use a URL similar to this:
-*http:// DublinfirebrigadeandambulancecalloutsAPI.com/callouts/all*
+If you wanted to list all Fire Brigade and Ambulance Callouts information use a URL similar to this:
+*http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/all*
 
-Saying "all" will return an array of *all* of the callouts, in *JSON* format like so:
+Saying "all" will return an array of *all* of the callouts, in **JSON** format like so:
 
 ```json
 [
@@ -85,3 +85,11 @@ Saying "all" will return an array of *all* of the callouts, in *JSON* format lik
 ]
 ```
 *Etc* Until all of the information in the table is displayed.
+
+## Using the HTTP GET method:
+If you wanted to list all Fire Brigade and Ambulance Callouts information along with a certain field of preference within the Dataset use a URL similar to this:
+*http://DublinfirebrigadeandambulancecalloutsAPI.com/callouts/?[District_ID]=[SWORDS]*
+
+"?" :
+[District_ID] meaning "[Field of preference]" so it will search for the information in the Dataset that you requested
+=[SWORDS] meaning =[Prefered Field info] so it will respond with the information in the Dataset that you requested
