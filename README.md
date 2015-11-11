@@ -98,6 +98,7 @@ If you wanted to list all Fire Brigade and Ambulance Callouts information along 
 This would return a list of all of the Ambulance or Fire Brigade callouts that there has been to "Swords" from the "District_ID" column in the Dataset.
 
 **Extra Information**
+
 If there was a space between the two words in the column that you are requesting information from you simply add "+" to the URL.
 For example:
 
