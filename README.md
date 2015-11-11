@@ -30,18 +30,18 @@ The Dataset, taking the first row for example, looks like this in JSON Format:
 ```json
 [
 {
-    "Date":01/01/2011,
+    "Date":01-01-2011,
     "Agency":"DA",
     "Station Area":"D10",
     "District_Id":"City Centre",
-    "TOC": 00:05:16,
-    "ORD": 00:07:33,
-    "MOB": 00:07:50,
-    "IA": 00:09:12,
+    "TOC": "00:05:16",
+    "ORD": "00:07:33",
+    "MOB": "00:07:50",
+    "IA": "00:09:12",
     "LS": ,
-    "AH": 00:21:19,
-    "MAV": 00:37:53,
-    "CD": 00:41:44,
+    "AH": "00:21:19",
+    "MAV": "00:37:53",
+    "CD": "00:41:44",
   }
   ]
 ```
