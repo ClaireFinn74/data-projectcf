@@ -212,5 +212,7 @@ Code| Description
 This API is useful for **all** audiences. It is a core API for all people who want to know about all of the Fire Brigade and Ambulance Callouts that have happened in all of the different areas within Dublin. This is an important source of information for:
 - People who may want to conduct surveys on the accident and Emergency services in Dublin
 - News-Readers who need to access this information in order to report on an accident
+- Court cases that need to be solved by knowing information such as the exact "TOC" or "Time Of Call" of the ambulance if somebody was filing a case against them
+- Insurance purposes (if you were involved in an accident and the Insurance Company needed Information on the accident)
 - People who need reassurance to know the amount of time it takes the Fire Brigade/Ambulance to reach them at certain parts of the city they may live in if anything might go wrong at any point
 - People who may be moving to work in a different city and need handy information on where the closest Fire Brigade/Ambulance service is and how long it might take them to do certain things
