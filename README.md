@@ -195,7 +195,7 @@ The following would be output in **JSON** Format:
   }
  ]
 ```
-etc until all of the fields in the "City Centre" are output that come from the agency ""DA.
+etc until all of the fields in the "City Centre" are output that come from the agency "DA".
 
 As you can see the fields output are fields with only "City Centre" as the "District_ID" and "DA" as the Agency.
 
